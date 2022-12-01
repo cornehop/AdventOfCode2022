@@ -3,9 +3,43 @@ namespace AdventOfCode.Tests
     [TestClass]
     public class Day01
     {
-        [TestMethod]
-        public void TestMethod1()
+        private readonly string[] _input = new string[]
         {
+            "1000",
+            "2000",
+            "3000",
+            "",
+            "4000",
+            "",
+            "5000",
+            "6000",
+            "",
+            "7000",
+            "8000",
+            "9000",
+            "",
+            "10000",
+            "",
+        };
+
+        [TestMethod]
+        public void Day01_GetResult_GivesCorrectCalorieCount()
+        {
+            // Act
+            var result = AdventOfCode.Day01.GetResult(_input);
+
+            // Assert
+            Assert.AreEqual(result, 24000);
+        }
+
+        [TestMethod]
+        public void Day01_GetSecondResult_GivesCorrectCalorieCount()
+        {
+            // Act
+            var result = AdventOfCode.Day01.GetSecondResult(_input);
+
+            // Assert
+            Assert.AreEqual(result, 45000);
         }
     }
 }
