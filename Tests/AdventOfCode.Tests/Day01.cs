@@ -26,7 +26,7 @@ namespace AdventOfCode.Tests
         public void Day01_GetResult_GivesCorrectCalorieCount()
         {
             // Act
-            var result = AdventOfCode.Day01.GetResult(_input);
+            var result = AdventOfCode.Day01.Program.GetResult(_input);
 
             // Assert
             Assert.AreEqual(result, 24000);
@@ -36,7 +36,7 @@ namespace AdventOfCode.Tests
         public void Day01_GetSecondResult_GivesCorrectCalorieCount()
         {
             // Act
-            var result = AdventOfCode.Day01.GetSecondResult(_input);
+            var result = AdventOfCode.Day01.Program.GetSecondResult(_input);
 
             // Assert
             Assert.AreEqual(result, 45000);

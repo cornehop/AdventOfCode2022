@@ -7,7 +7,8 @@
 
     await (day switch
     {
-        "1" => AdventOfCode.Day01.Main(),
+        "1" => AdventOfCode.Day01.Program.Main(),
+        "2" => AdventOfCode.Day02.Program.Main(),
         _ => Task.CompletedTask
     });
 

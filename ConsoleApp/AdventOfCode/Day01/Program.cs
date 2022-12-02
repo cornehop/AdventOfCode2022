@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AdventOfCode
+﻿namespace AdventOfCode.Day01
 {
     /// <summary>
     /// Calorie Counting: https://adventofcode.com/2022/day/1
     /// </summary>
-    public static class Day01
+    public static class Program
     {
         public static Task Main()
         {
