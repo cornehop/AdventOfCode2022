@@ -74,8 +74,6 @@ namespace AdventOfCode.Day03
 
         public static char GetGroupLetter(string[] lines)
         {
-            var combinedLines = string.Join("", lines);
-
             var line1 = lines[0].ToCharArray();
             var line2 = lines[1].ToCharArray();
             var line3 = lines[2].ToCharArray();
