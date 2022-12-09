@@ -13,6 +13,7 @@
         "4" => AdventOfCode.Day04.Program.Main(),
         "5" => AdventOfCode.Day05.Program.Main(),
         "6" => AdventOfCode.Day06.Program.Main(),
+        "7" => AdventOfCode.Day07.Program.Main(),
         _ => Task.CompletedTask
     });
 
